@@ -22,7 +22,7 @@ function App() {
         <Route path=":id" element={<Article />} />
       </Route>
       <Route path="/login" element={<Login />} />
-      <Route path="/mypage" element={<MyPage />} />
+      <Route path="/mypage" element={<MyPage></MyPage>} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

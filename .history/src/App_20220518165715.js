@@ -21,8 +21,8 @@ function App() {
       <Route path="/articles/" element={<Articles />}>
         <Route path=":id" element={<Article />} />
       </Route>
-      <Route path="/login" element={<Login />} />
-      <Route path="/mypage" element={<MyPage />} />
+      <Route path="/login" element={<Login/>}/>
+      <Route path="/mypage" element={<MyPage}/>
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
